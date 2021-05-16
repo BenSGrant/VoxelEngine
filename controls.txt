@@ -1,4 +1,4 @@
-			- WS = move forward/back
-			- LSHIFT = down
-			- SPACE = up
-      - P = toggle GL_TRIANGLES/GL_LINES
+	- WS = move forward/back
+	- LSHIFT = down
+	- SPACE = up
+	- P = toggle fill / lines polygon modes
