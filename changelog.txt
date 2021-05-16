@@ -1,0 +1,12 @@
+VoxelEngine CHANGELOG
+	v0:
+		v0.1:
+			
+			- 3D cube rendered with Minecraft dirt block texture
+			- Move-able camera that transforms everything in the world, the camera
+			  doesn't move, the world does
+			- FPS capped at 60
+			- FileLogging system, if there is a problem, look at latest.log
+			- WS = move forward/back
+			- LSHIFT = down
+			- SPACE = up
