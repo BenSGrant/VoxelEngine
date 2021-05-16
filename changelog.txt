@@ -7,6 +7,3 @@ VoxelEngine CHANGELOG
 			  doesn't move, the world does
 			- FPS capped at 60
 			- FileLogging system, if there is a problem, look at latest.log
-			- WS = move forward/back
-			- LSHIFT = down
-			- SPACE = up
