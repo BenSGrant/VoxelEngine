@@ -1,0 +1,4 @@
+			- WS = move forward/back
+			- LSHIFT = down
+			- SPACE = up
+      - P = toggle GL_TRIANGLES/GL_LINES
