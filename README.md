@@ -1,5 +1,5 @@
 ![logo](https://user-images.githubusercontent.com/83780368/118407599-5fd49f00-b679-11eb-9600-5bbeffdccca8.png)
-VoxelEngine
+GaryTheBlobfish::VoxelEngine
 
 	- See controls.txt for controls
 	- See changelog.txt to see changes
