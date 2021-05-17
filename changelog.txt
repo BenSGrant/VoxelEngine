@@ -29,4 +29,8 @@ VoxelEngine CHANGELOG
 				- Window title changed from Voxel Engine vx.x to
 				  GaryTheBlobfish::VoxelEngine vx.x.x .
 				- Sprinting added, press control to sprint.
-				
+		
+		v0.3:
+		
+			- Terrain generation done in chunks - bogs FPS down a lot more
+			- FPS capped at 255
