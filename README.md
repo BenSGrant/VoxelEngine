@@ -2,8 +2,8 @@
 
 GaryTheBlobfish::VoxelEngine
 
+An Open Source 3D Voxel Engine written in LWJGL 2.9.1 and Java 8
+
 	- See controls.txt for controls
 	- See changelog.txt to see changes
-	- Thanks to Reon Fourie https://www.youtube.com/channel/UCFNHiD7cM4l3Mwfs3ENjJyw for the 
-	  tutorial on how to make this
 	- Post any issues on the issues tab in Github
