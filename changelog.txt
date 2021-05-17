@@ -15,4 +15,18 @@ VoxelEngine CHANGELOG
 				another thread - terrain cleanup
 				another thread - rest of game
 			- FPS capped at 120
-			- 
+			
+			v0.2.1:
+			
+				- Terrain clean up is removed, voxels are just not rendered.
+				- HashMap used to optmise the entity rendering method; 
+				  TexturedModel as key and Entity as value, so if an Entity uses
+				  a TexturedModel that already exists in the game state, it just
+				  uses the originally created one.
+				- Vertical and Horizontal slabs added but not used in game
+				- Block texture changed to my own dirt texture (not as good
+				  looking).
+				- Window title changed from Voxel Engine vx.x to
+				  GaryTheBlobfish::VoxelEngine vx.x.x .
+				- Sprinting added, press control to sprint.
+				
