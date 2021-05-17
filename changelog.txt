@@ -32,5 +32,7 @@ VoxelEngine CHANGELOG
 		
 		v0.3:
 		
-			- Terrain generation done in chunks - bogs FPS down a lot more
+			- Terrain generation done in chunks - bogs FPS down a lot more.
+			- Old Chunk.java renamed to TerrainGenerator.java.
+			- new Chunk.java just holds chunk data.
 			- FPS capped at 255

@@ -1,0 +1,5 @@
+	- WS = move forward/back
+	- LSHIFT = down
+	- SPACE = up
+	- LCONTROL + W = sprint forwards
+	- P = toggle fill / lines polygon modes
