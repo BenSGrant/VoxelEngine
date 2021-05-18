@@ -48,3 +48,9 @@ VoxelEngine CHANGELOG
 			v0.4.1:
 			
 				- Fixed window title to read GaryTheBlobfish::VoxelEngine v0.4.1
+
+			v0.4.2:
+			
+				- Added the option to only generate a single block. This is useful
+				  when taking screenshots where you have to be able to see all
+				  sides of the voxel
