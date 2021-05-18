@@ -6,3 +6,5 @@ TODO:
   - biomes
   - water
   - clouds (maybe)
+  - eventually AI
+  - actual gameplay
