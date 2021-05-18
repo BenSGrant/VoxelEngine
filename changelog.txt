@@ -36,3 +36,10 @@ VoxelEngine CHANGELOG
 			- Old Chunk.java renamed to TerrainGenerator.java.
 			- new Chunk.java just holds chunk data.
 			- FPS capped at 255
+			
+		v0.4:
+		
+			- per-block Texture atlasing
+			- New seperate Block type, only difference is the UV coordinates
+			- FPS capped at 60
+			- Way render distance is calculated has been tweaked slightly
