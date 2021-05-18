@@ -43,3 +43,7 @@ VoxelEngine CHANGELOG
 			- New seperate Block type, only difference is the UV coordinates
 			- FPS capped at 60
 			- Way render distance is calculated has been tweaked slightly
+			
+			v0.4.1:
+			
+				- Fixed window title to read GaryTheBlobfish::VoxelEngine v0.4.1
