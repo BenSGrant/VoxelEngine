@@ -36,6 +36,7 @@ VoxelEngine CHANGELOG
 			- Old Chunk.java renamed to TerrainGenerator.java.
 			- new Chunk.java just holds chunk data.
 			- FPS capped at 255
+			- FOV changed from 70 to 110
 			
 		v0.4:
 		
