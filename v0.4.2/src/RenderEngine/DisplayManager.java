@@ -41,7 +41,7 @@ public class DisplayManager {
 			Display.setDisplayMode(new DisplayMode(WIDTH, HEIGHT));
 			Display.create(new PixelFormat().withDepthBits(24), attribs); // put 8,8,0,8 in new PixelFOrmat for basic
 																			// anti-aliasing
-			Display.setTitle("GaryTheBlobfish::VoxelEngine v0.4.1");
+			Display.setTitle("GaryTheBlobfish::VoxelEngine v0.4.2");
 			// Display.setFullscreen(true);//comment out display mode line for this line to
 			// work
 			Display.setResizable(true);
