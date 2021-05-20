@@ -54,3 +54,16 @@ VoxelEngine CHANGELOG
 				- Added the option to only generate a single block. This is useful
 				  when taking screenshots where you have to be able to see all
 				  sides of the voxel
+		
+		v0.5:
+		
+			- Chunk Mesh generation, where all the faces in all the blocks in a chunk
+			  are looped through and if the faces is open to air, then add it to the
+			  chunk mesh which is drawn in one draw call instead of a draw call per
+			  block.
+			- FPS capped at 64
+			- Render distance is 22 chunks
+			- Perlin (maybe value, not sure) noise generation for height of the chunk
+			- There is a bad memory issue so don't run the game for more than a couple
+			  of minutes as the amount of RAM the application takes up will increase
+			  indefinitely
