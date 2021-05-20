@@ -1,6 +1,6 @@
 VoxelEngine CHANGELOG
 	v0:
-		v0.1:
+		v0.1 - (16/5/21):
 			
 			- 3D cube rendered with Minecraft dirt block texture
 			- Move-able camera that transforms everything in the world, the camera
@@ -8,7 +8,7 @@ VoxelEngine CHANGELOG
 			- FPS capped at 60
 			- FileLogging system, if there is a problem, look at latest.log
 		
-		v0.2:
+		v0.2 - (17/5/21):
 		
 			- Multi-threaded Flat terrain generation:
 				One thread - terrain generation
@@ -16,7 +16,7 @@ VoxelEngine CHANGELOG
 				another thread - rest of game
 			- FPS capped at 120
 			
-			v0.2.1:
+			v0.2.1 - (17/5/21):
 			
 				- Terrain clean up is removed, voxels are just not rendered.
 				- HashMap used to optmise the entity rendering method; 
@@ -30,7 +30,7 @@ VoxelEngine CHANGELOG
 				  GaryTheBlobfish::VoxelEngine vx.x.x .
 				- Sprinting added, press control to sprint.
 		
-		v0.3:
+		v0.3 - (18/5/21):
 		
 			- Terrain generation done in chunks - bogs FPS down a lot more.
 			- Old Chunk.java renamed to TerrainGenerator.java.
@@ -38,24 +38,24 @@ VoxelEngine CHANGELOG
 			- FPS capped at 255
 			- FOV changed from 70 to 110
 			
-		v0.4:
+		v0.4 - (18/5/21):
 		
 			- per-block Texture atlasing
 			- New seperate Block type, only difference is the UV coordinates
 			- FPS capped at 60
 			- Way render distance is calculated has been tweaked slightly
 			
-			v0.4.1:
+			v0.4.1 - (18/5/21):
 			
 				- Fixed window title to read GaryTheBlobfish::VoxelEngine v0.4.1
 
-			v0.4.2:
+			v0.4.2 - (18/5/21):
 			
 				- Added the option to only generate a single block. This is useful
 				  when taking screenshots where you have to be able to see all
 				  sides of the voxel
 		
-		v0.5:
+		v0.5 - (20/5/21):
 		
 			- Chunk Mesh generation, where all the faces in all the blocks in a chunk
 			  are looped through and if the faces is open to air, then add it to the
