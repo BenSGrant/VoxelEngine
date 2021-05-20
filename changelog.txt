@@ -64,6 +64,6 @@ VoxelEngine CHANGELOG
 			- FPS capped at 64
 			- Render distance is 22 chunks
 			- Perlin (maybe value, not sure) noise generation for height of the chunk
-			- There is a bad memory issue so don't run the game for more than a couple
-			  of minutes as the amount of RAM the application takes up will increase
-			  indefinitely
+			- There is a bad memory issue so DO NOT RUN THE GAME FOR MORE THAN A MINUTE
+			  OR TWO (depending on your computer specs) AT A TIME as the amount of RAM
+			  the application takes up will increase indefinitely.
