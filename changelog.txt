@@ -67,3 +67,15 @@ VoxelEngine CHANGELOG
 			- There is a bad memory issue so DO NOT RUN THE GAME FOR MORE THAN A MINUTE
 			  OR TWO (depending on your computer specs) AT A TIME as the amount of RAM
 			  the application takes up will increase indefinitely.
+		
+		v0.6 - (1/6/21):
+		
+			- Blocks that use a texture atlas now work in world generation as all blocks 
+			  now share the same texture atlas that has a texture for every side of every 
+			  block.
+			- RAM problem reduced but not fixed.
+			- Stone blocks are generated ~9 blocks below the surface, dirt 1 block, grass
+			  blocks on top.
+			- FPS capped at 50 (forgot to change it before release)
+			- Window size 480x894 (also forgot to change before release)
+			- Window title now reads GaryTheBlobfish::VoxelEngine v0.6
