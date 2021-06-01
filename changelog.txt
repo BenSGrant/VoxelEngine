@@ -73,7 +73,8 @@ VoxelEngine CHANGELOG
 			- Blocks that use a texture atlas now work in world generation as all blocks 
 			  now share the same texture atlas that has a texture for every side of every 
 			  block.
-			- RAM problem reduced but not fixed.
+			- RAM build up problem reduced but not fixed. The cause appears to be that 
+			  there is no chunk unloading yet.
 			- Stone blocks are generated ~9 blocks below the surface, dirt 1 block, grass
 			  blocks on top.
 			- FPS capped at 50 (forgot to change it before release)
