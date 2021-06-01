@@ -79,3 +79,9 @@ VoxelEngine CHANGELOG
 			- FPS capped at 50 (forgot to change it before release)
 			- Window size 480x894 (also forgot to change before release)
 			- Window title now reads GaryTheBlobfish::VoxelEngine v0.6
+			
+			v0.6.1 - (1/6/21):
+			
+				- Window size now 1080p
+				- Refresh rate capped at 255
+				- Window title now reads GaryTheBlobfish::VoxelEngine v0.6.1
