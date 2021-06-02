@@ -89,5 +89,6 @@ VoxelEngine CHANGELOG
 				
 		v0.7 - (2/6/21):
 		
-			- FOG.
-			- where there used to be gaps in the ground there is now dirt patches
+			- FOG. The further away something is from the camera, the more it gets blended
+			  into the skycolour.
+			- Where there used to be gaps in the ground there is now dirt patches
