@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# make sure old versions don't count towards language stats
+old/** linguist-vendored=true
