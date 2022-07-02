@@ -18,8 +18,6 @@ import Entities.Entity;
 import Entities.Light;
 import Mesh.voxelTypes.chunks.ChunkMesh;
 import Mesh.voxelTypes.cube.BlockModel;
-import Mesh.voxelTypes.tree.Tree;
-import Mesh.voxelTypes.tree.TreeMesh;
 import Models.RawModel;
 import Models.TexturedModel;
 import RenderEngine.DisplayManager;
@@ -33,7 +31,6 @@ public class MainGameLoop {
 	public static Loader loader1 = null;
 
 	static List<ChunkMesh> chunks = Collections.synchronizedList(new ArrayList<ChunkMesh>());
-	static List<TreeMesh> trees = Collections.synchronizedList(new ArrayList<TreeMesh>());
 	static Vector3f camPos = new Vector3f(0,TerrainGenerator.chunkHeight,0);
 	
 	static List<Entity> entities = new ArrayList<Entity>();
@@ -146,27 +143,6 @@ public class MainGameLoop {
 				index++;
 			}
 
-			if (tIndex < trees.size()) {
-				RawModel tMeshModel = loader.loadToVAO(trees.get(tIndex).positions, trees.get(tIndex).uvs);
-				TexturedModel tMeshTexModel = new TexturedModel(tMeshModel, tex);
-				Entity tentity = new Entity(tMeshTexModel, trees.get(tIndex).tree.origin, 0, 0, 0, 1);
-				entities.add(tentity);
-				
-				
-				// delete arrays because they are in GPU memory we don't need them in RAM anymore
-				
-				trees.get(index).positions = null;
-				trees.get(index).uvs = null;
-				trees.get(index).normals = null;
-				
-				// these are now in entities list, no longer needed in RAM
-				tMeshModel = null;
-				tMeshTexModel = null;
-				tentity = null;
-				
-				tIndex++;
-			}
-			
 			for(int i = 0; i < entities.size(); i++) {
 				
 				Vector3f origin = entities.get(i).getPosition();

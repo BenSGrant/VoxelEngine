@@ -11,7 +11,6 @@ import Mesh.voxelTypes.chunks.Chunk;
 import Mesh.voxelTypes.chunks.ChunkMesh;
 import Mesh.voxelTypes.cube.Block;
 import Mesh.voxelTypes.tree.Tree;
-import Mesh.voxelTypes.tree.TreeMesh;
 import Models.TexturedModel;
 import toolBox.Maths;
 import toolBox.PerlinNoiseGenerator;
@@ -169,36 +168,6 @@ public class TerrainGenerator {
 ////		}
 //	}
 
-	public static void generateTrees(List<TreeMesh> trees, Vector3f camPos, Vector3f position) {
-		int trunkHeight = r.nextInt(8);
-	    
-	    for(int x = (int) (camPos.x - renderDist) / chunkSize; x < (camPos.x + renderDist) / chunkSize; x++) {
-	        for(int z = (int) (camPos.z - renderDist) / chunkSize; z < (camPos.z + renderDist) / chunkSize; z++) {
-	            int tx = r.nextInt((x * x));
-	            int tz = r.nextInt((z * z));
-	            if (!usedPos.contains(new Vector3f(tx,  position.y, tz))) {
-	                List<Block> blocks = new ArrayList<Block>();
-	                
-	                // generate tree
-	                if (trunkHeight < 4) {
-	                    trunkHeight = 4;
-	                }
-	
-	                for (int ty = 0; ty < trunkHeight; ty++) {
-	                    blocks.add(new Block(tx, (int) chunkHeight + ty, (int) tz, Block.TREE_TRUNK));
-	                }
-	                
-	                Tree tree = new Tree(blocks, new Vector3f(tx, position.y, tz));
-	                TreeMesh tMesh = new TreeMesh(tree);
-	                
-	                trees.add(tMesh);
-	                usedPos.add(new Vector3f(tx, position.y, tz));
-	                blocks.clear();
-	            }
-	        }
-	    }
-	}
-	
 	public static void generateBlock(List<Chunk> chunks, TexturedModel texModel, Vector3f position) {
 		List<Entity> blocks = new ArrayList<Entity>();
 		if(!usedPos.contains(position)) {
