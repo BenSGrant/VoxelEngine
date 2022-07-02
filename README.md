@@ -4,8 +4,6 @@ GaryTheBlobfish::VoxelEngine
 
 An Open Source 3D Voxel Engine written in LWJGL 2.9.1 and Java 8
 
-Discord - https://discord.gg/jWcCzBBDkQ
-
 	- See controls.txt for controls
 	- See changelog.txt to see changes
 	- Post any issues on the issues tab in Github
