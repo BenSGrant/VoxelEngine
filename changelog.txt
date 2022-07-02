@@ -93,3 +93,10 @@ VoxelEngine CHANGELOG
 			  into the skycolour.
 			- Where there used to be gaps in the ground there is now dirt patches
 			- FPS capped at 500
+		
+		v0.8 - (2/7/22): - exactly 13 months later
+			
+			- TREES
+			- Trees don't care about chunk borders
+			- Transparent leaves that you can see right through the entire chunk mesh with
+			- Trees can have trunks 4-6 blocks high
