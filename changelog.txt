@@ -100,3 +100,4 @@ VoxelEngine CHANGELOG
 			- Trees don't care about chunk borders
 			- Transparent leaves that you can see right through the entire chunk mesh with
 			- Trees can have trunks 4-6 blocks high
+			- Movement speed is now independent of frame time
