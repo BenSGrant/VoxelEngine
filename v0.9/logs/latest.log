@@ -1,0 +1,345 @@
+LOGGING STARTED AT: 03-07-2022 15:06:04
+
+03-07-2022 15:06:04 :    Starting game...
+03-07-2022 15:06:05 :    Created display...
+03-07-2022 15:06:05 :    Attached vertex shader to shader program...
+03-07-2022 15:06:05 :    Attached fragment shader to shader program...
+03-07-2022 15:06:05 :    Bound attribute position to VAO index 0...
+03-07-2022 15:06:05 :    Bound attribute textureCoords to VAO index 1...
+03-07-2022 15:06:05 :    Bound attribute normal to VAO index 2...
+03-07-2022 15:06:05 :    Bound all shader attributes to shader program...
+03-07-2022 15:06:05 :    Linked and validated shader program...
+03-07-2022 15:06:05 :    Retrieved transformationMatrix location : 4
+03-07-2022 15:06:05 :    Retrieved projectionMatrix location : 2
+03-07-2022 15:06:05 :    Retrieved viewMatrix location : 5
+03-07-2022 15:06:05 :    Retrieved lightPosition location : 1
+03-07-2022 15:06:05 :    Retrieved lightColour location : 0
+03-07-2022 15:06:05 :    Retrieved skyColour location : 3
+03-07-2022 15:06:05 :    Finished retrieving uniform locations...
+03-07-2022 15:06:05 :    Loaded asset src/shaders/vertexShader.glsl...
+03-07-2022 15:06:05 :    Loaded asset src/shaders/fragmentShader.glsl...
+03-07-2022 15:06:05 :    Attached vertex shader to shader program...
+03-07-2022 15:06:05 :    Attached fragment shader to shader program...
+03-07-2022 15:06:05 :    Bound attribute position to VAO index 0...
+03-07-2022 15:06:05 :    Bound attribute textureCoords to VAO index 1...
+03-07-2022 15:06:05 :    Bound attribute normal to VAO index 2...
+03-07-2022 15:06:05 :    Bound all shader attributes to shader program...
+03-07-2022 15:06:05 :    Linked and validated shader program...
+03-07-2022 15:06:05 :    Retrieved transformationMatrix location : 4
+03-07-2022 15:06:05 :    Retrieved projectionMatrix location : 2
+03-07-2022 15:06:05 :    Retrieved viewMatrix location : 5
+03-07-2022 15:06:05 :    Retrieved lightPosition location : 1
+03-07-2022 15:06:05 :    Retrieved lightColour location : 0
+03-07-2022 15:06:05 :    Retrieved skyColour location : 3
+03-07-2022 15:06:05 :    Finished retrieving uniform locations...
+03-07-2022 15:06:05 :    Loaded asset src/shaders/vertexShader.glsl...
+03-07-2022 15:06:05 :    Loaded asset src/shaders/fragmentShader.glsl...
+03-07-2022 15:06:05 :    Created MasterRenderer and Loader...
+03-07-2022 15:06:05 :    Created ModelTexture using asset res/textures/blocks/pack ...
+03-07-2022 15:06:05 :    Entering main game loop...
+03-07-2022 15:06:05 :    Terrain handling thread starting...
+03-07-2022 15:06:05 :    Generating Simplex Noise heights
+03-07-2022 15:06:05 :    Finished Generating Simplex Noise heights in 40ms
+03-07-2022 15:06:06 :    It took 855ms to generate this chunk mesh
+03-07-2022 15:06:07 :    It took 285ms to generate this chunk mesh
+03-07-2022 15:06:07 :    It took 547ms to generate this chunk mesh
+03-07-2022 15:06:07 :    It took 42ms to generate this chunk mesh
+03-07-2022 15:06:07 :    It took 68ms to generate this chunk mesh
+03-07-2022 15:06:07 :    It took 77ms to generate this chunk mesh
+03-07-2022 15:06:08 :    It took 68ms to generate this chunk mesh
+03-07-2022 15:06:08 :    It took 48ms to generate this chunk mesh
+03-07-2022 15:06:08 :    It took 41ms to generate this chunk mesh
+03-07-2022 15:06:08 :    It took 73ms to generate this chunk mesh
+03-07-2022 15:06:08 :    It took 62ms to generate this chunk mesh
+03-07-2022 15:06:08 :    It took 41ms to generate this chunk mesh
+03-07-2022 15:06:08 :    It took 52ms to generate this chunk mesh
+03-07-2022 15:06:08 :    It took 55ms to generate this chunk mesh
+03-07-2022 15:06:08 :    It took 47ms to generate this chunk mesh
+03-07-2022 15:06:08 :    It took 47ms to generate this chunk mesh
+03-07-2022 15:06:08 :    It took 44ms to generate this chunk mesh
+03-07-2022 15:06:08 :    It took 37ms to generate this chunk mesh
+03-07-2022 15:06:09 :    It took 31ms to generate this chunk mesh
+03-07-2022 15:06:09 :    It took 23ms to generate this chunk mesh
+03-07-2022 15:06:09 :    It took 48ms to generate this chunk mesh
+03-07-2022 15:06:09 :    It took 51ms to generate this chunk mesh
+03-07-2022 15:06:09 :    It took 53ms to generate this chunk mesh
+03-07-2022 15:06:09 :    It took 45ms to generate this chunk mesh
+03-07-2022 15:06:09 :    It took 43ms to generate this chunk mesh
+03-07-2022 15:06:09 :    It took 56ms to generate this chunk mesh
+03-07-2022 15:06:09 :    It took 76ms to generate this chunk mesh
+03-07-2022 15:06:09 :    It took 39ms to generate this chunk mesh
+03-07-2022 15:06:09 :    It took 34ms to generate this chunk mesh
+03-07-2022 15:06:09 :    It took 62ms to generate this chunk mesh
+03-07-2022 15:06:09 :    It took 64ms to generate this chunk mesh
+03-07-2022 15:06:10 :    It took 46ms to generate this chunk mesh
+03-07-2022 15:06:10 :    It took 36ms to generate this chunk mesh
+03-07-2022 15:06:10 :    It took 38ms to generate this chunk mesh
+03-07-2022 15:06:10 :    It took 24ms to generate this chunk mesh
+03-07-2022 15:06:10 :    It took 22ms to generate this chunk mesh
+03-07-2022 15:06:10 :    It took 49ms to generate this chunk mesh
+03-07-2022 15:06:10 :    It took 38ms to generate this chunk mesh
+03-07-2022 15:06:10 :    It took 40ms to generate this chunk mesh
+03-07-2022 15:06:10 :    It took 46ms to generate this chunk mesh
+03-07-2022 15:06:10 :    It took 46ms to generate this chunk mesh
+03-07-2022 15:06:10 :    It took 61ms to generate this chunk mesh
+03-07-2022 15:06:10 :    It took 41ms to generate this chunk mesh
+03-07-2022 15:06:10 :    It took 45ms to generate this chunk mesh
+03-07-2022 15:06:10 :    It took 40ms to generate this chunk mesh
+03-07-2022 15:06:10 :    It took 43ms to generate this chunk mesh
+03-07-2022 15:06:10 :    It took 62ms to generate this chunk mesh
+03-07-2022 15:06:11 :    It took 64ms to generate this chunk mesh
+03-07-2022 15:06:11 :    It took 54ms to generate this chunk mesh
+03-07-2022 15:06:11 :    It took 35ms to generate this chunk mesh
+03-07-2022 15:06:11 :    It took 34ms to generate this chunk mesh
+03-07-2022 15:06:11 :    It took 35ms to generate this chunk mesh
+03-07-2022 15:06:11 :    It took 32ms to generate this chunk mesh
+03-07-2022 15:06:11 :    It took 31ms to generate this chunk mesh
+03-07-2022 15:06:11 :    It took 39ms to generate this chunk mesh
+03-07-2022 15:06:11 :    It took 34ms to generate this chunk mesh
+03-07-2022 15:06:11 :    It took 27ms to generate this chunk mesh
+03-07-2022 15:06:11 :    It took 24ms to generate this chunk mesh
+03-07-2022 15:06:11 :    It took 31ms to generate this chunk mesh
+03-07-2022 15:06:11 :    It took 33ms to generate this chunk mesh
+03-07-2022 15:06:11 :    It took 45ms to generate this chunk mesh
+03-07-2022 15:06:11 :    It took 52ms to generate this chunk mesh
+03-07-2022 15:06:12 :    It took 57ms to generate this chunk mesh
+03-07-2022 15:06:12 :    It took 105ms to generate this chunk mesh
+03-07-2022 15:06:12 :    It took 40ms to generate this chunk mesh
+03-07-2022 15:06:12 :    It took 42ms to generate this chunk mesh
+03-07-2022 15:06:12 :    It took 36ms to generate this chunk mesh
+03-07-2022 15:06:12 :    It took 56ms to generate this chunk mesh
+03-07-2022 15:06:12 :    It took 46ms to generate this chunk mesh
+03-07-2022 15:06:12 :    It took 40ms to generate this chunk mesh
+03-07-2022 15:06:12 :    It took 34ms to generate this chunk mesh
+03-07-2022 15:06:12 :    It took 28ms to generate this chunk mesh
+03-07-2022 15:06:12 :    It took 25ms to generate this chunk mesh
+03-07-2022 15:06:12 :    It took 29ms to generate this chunk mesh
+03-07-2022 15:06:12 :    It took 29ms to generate this chunk mesh
+03-07-2022 15:06:12 :    It took 35ms to generate this chunk mesh
+03-07-2022 15:06:12 :    It took 38ms to generate this chunk mesh
+03-07-2022 15:06:13 :    It took 41ms to generate this chunk mesh
+03-07-2022 15:06:13 :    It took 37ms to generate this chunk mesh
+03-07-2022 15:06:13 :    It took 69ms to generate this chunk mesh
+03-07-2022 15:06:13 :    It took 51ms to generate this chunk mesh
+03-07-2022 15:06:13 :    It took 41ms to generate this chunk mesh
+03-07-2022 15:06:13 :    It took 40ms to generate this chunk mesh
+03-07-2022 15:06:13 :    It took 31ms to generate this chunk mesh
+03-07-2022 15:06:13 :    It took 36ms to generate this chunk mesh
+03-07-2022 15:06:13 :    It took 43ms to generate this chunk mesh
+03-07-2022 15:06:13 :    It took 30ms to generate this chunk mesh
+03-07-2022 15:06:13 :    It took 24ms to generate this chunk mesh
+03-07-2022 15:06:13 :    It took 21ms to generate this chunk mesh
+03-07-2022 15:06:13 :    It took 21ms to generate this chunk mesh
+03-07-2022 15:06:13 :    It took 20ms to generate this chunk mesh
+03-07-2022 15:06:13 :    It took 28ms to generate this chunk mesh
+03-07-2022 15:06:13 :    It took 31ms to generate this chunk mesh
+03-07-2022 15:06:13 :    It took 24ms to generate this chunk mesh
+03-07-2022 15:06:13 :    It took 25ms to generate this chunk mesh
+03-07-2022 15:06:13 :    It took 30ms to generate this chunk mesh
+03-07-2022 15:06:14 :    It took 47ms to generate this chunk mesh
+03-07-2022 15:06:14 :    It took 50ms to generate this chunk mesh
+03-07-2022 15:06:14 :    It took 63ms to generate this chunk mesh
+03-07-2022 15:06:14 :    It took 50ms to generate this chunk mesh
+03-07-2022 15:06:14 :    It took 57ms to generate this chunk mesh
+03-07-2022 15:06:14 :    It took 57ms to generate this chunk mesh
+03-07-2022 15:06:14 :    It took 40ms to generate this chunk mesh
+03-07-2022 15:06:14 :    It took 25ms to generate this chunk mesh
+03-07-2022 15:06:14 :    It took 28ms to generate this chunk mesh
+03-07-2022 15:06:14 :    It took 26ms to generate this chunk mesh
+03-07-2022 15:06:14 :    It took 23ms to generate this chunk mesh
+03-07-2022 15:06:14 :    It took 23ms to generate this chunk mesh
+03-07-2022 15:06:14 :    It took 22ms to generate this chunk mesh
+03-07-2022 15:06:14 :    It took 14ms to generate this chunk mesh
+03-07-2022 15:06:14 :    It took 14ms to generate this chunk mesh
+03-07-2022 15:06:14 :    It took 18ms to generate this chunk mesh
+03-07-2022 15:06:14 :    It took 42ms to generate this chunk mesh
+03-07-2022 15:06:14 :    It took 40ms to generate this chunk mesh
+03-07-2022 15:06:15 :    It took 32ms to generate this chunk mesh
+03-07-2022 15:06:15 :    It took 29ms to generate this chunk mesh
+03-07-2022 15:06:15 :    It took 38ms to generate this chunk mesh
+03-07-2022 15:06:15 :    It took 44ms to generate this chunk mesh
+03-07-2022 15:06:15 :    It took 68ms to generate this chunk mesh
+03-07-2022 15:06:15 :    It took 40ms to generate this chunk mesh
+03-07-2022 15:06:15 :    It took 46ms to generate this chunk mesh
+03-07-2022 15:06:15 :    It took 36ms to generate this chunk mesh
+03-07-2022 15:06:15 :    It took 32ms to generate this chunk mesh
+03-07-2022 15:06:15 :    It took 31ms to generate this chunk mesh
+03-07-2022 15:06:15 :    It took 26ms to generate this chunk mesh
+03-07-2022 15:06:15 :    It took 18ms to generate this chunk mesh
+03-07-2022 15:06:15 :    It took 18ms to generate this chunk mesh
+03-07-2022 15:06:15 :    It took 22ms to generate this chunk mesh
+03-07-2022 15:06:15 :    It took 48ms to generate this chunk mesh
+03-07-2022 15:06:15 :    It took 45ms to generate this chunk mesh
+03-07-2022 15:06:15 :    It took 36ms to generate this chunk mesh
+03-07-2022 15:06:15 :    It took 32ms to generate this chunk mesh
+03-07-2022 15:06:15 :    It took 24ms to generate this chunk mesh
+03-07-2022 15:06:16 :    It took 22ms to generate this chunk mesh
+03-07-2022 15:06:16 :    It took 17ms to generate this chunk mesh
+03-07-2022 15:06:16 :    It took 23ms to generate this chunk mesh
+03-07-2022 15:06:16 :    It took 38ms to generate this chunk mesh
+03-07-2022 15:06:16 :    It took 47ms to generate this chunk mesh
+03-07-2022 15:06:16 :    It took 54ms to generate this chunk mesh
+03-07-2022 15:06:16 :    It took 39ms to generate this chunk mesh
+03-07-2022 15:06:16 :    It took 38ms to generate this chunk mesh
+03-07-2022 15:06:16 :    It took 31ms to generate this chunk mesh
+03-07-2022 15:06:16 :    It took 22ms to generate this chunk mesh
+03-07-2022 15:06:16 :    It took 25ms to generate this chunk mesh
+03-07-2022 15:06:16 :    It took 33ms to generate this chunk mesh
+03-07-2022 15:06:16 :    It took 38ms to generate this chunk mesh
+03-07-2022 15:06:16 :    It took 35ms to generate this chunk mesh
+03-07-2022 15:06:16 :    It took 32ms to generate this chunk mesh
+03-07-2022 15:06:16 :    It took 24ms to generate this chunk mesh
+03-07-2022 15:06:16 :    It took 20ms to generate this chunk mesh
+03-07-2022 15:06:16 :    It took 18ms to generate this chunk mesh
+03-07-2022 15:06:16 :    It took 18ms to generate this chunk mesh
+03-07-2022 15:06:16 :    It took 26ms to generate this chunk mesh
+03-07-2022 15:06:17 :    It took 34ms to generate this chunk mesh
+03-07-2022 15:06:17 :    It took 34ms to generate this chunk mesh
+03-07-2022 15:06:17 :    It took 30ms to generate this chunk mesh
+03-07-2022 15:06:17 :    It took 39ms to generate this chunk mesh
+03-07-2022 15:06:17 :    It took 34ms to generate this chunk mesh
+03-07-2022 15:06:17 :    It took 27ms to generate this chunk mesh
+03-07-2022 15:06:17 :    It took 31ms to generate this chunk mesh
+03-07-2022 15:06:17 :    It took 26ms to generate this chunk mesh
+03-07-2022 15:06:17 :    It took 42ms to generate this chunk mesh
+03-07-2022 15:06:17 :    It took 50ms to generate this chunk mesh
+03-07-2022 15:06:17 :    It took 47ms to generate this chunk mesh
+03-07-2022 15:06:17 :    It took 32ms to generate this chunk mesh
+03-07-2022 15:06:17 :    It took 22ms to generate this chunk mesh
+03-07-2022 15:06:17 :    It took 22ms to generate this chunk mesh
+03-07-2022 15:06:17 :    It took 29ms to generate this chunk mesh
+03-07-2022 15:06:17 :    It took 30ms to generate this chunk mesh
+03-07-2022 15:06:17 :    It took 44ms to generate this chunk mesh
+03-07-2022 15:06:17 :    It took 42ms to generate this chunk mesh
+03-07-2022 15:06:17 :    It took 31ms to generate this chunk mesh
+03-07-2022 15:06:17 :    It took 32ms to generate this chunk mesh
+03-07-2022 15:06:17 :    It took 34ms to generate this chunk mesh
+03-07-2022 15:06:18 :    It took 29ms to generate this chunk mesh
+03-07-2022 15:06:18 :    It took 37ms to generate this chunk mesh
+03-07-2022 15:06:18 :    It took 25ms to generate this chunk mesh
+03-07-2022 15:06:18 :    It took 37ms to generate this chunk mesh
+03-07-2022 15:06:18 :    It took 31ms to generate this chunk mesh
+03-07-2022 15:06:18 :    It took 40ms to generate this chunk mesh
+03-07-2022 15:06:18 :    It took 29ms to generate this chunk mesh
+03-07-2022 15:06:18 :    It took 28ms to generate this chunk mesh
+03-07-2022 15:06:18 :    It took 29ms to generate this chunk mesh
+03-07-2022 15:06:18 :    It took 35ms to generate this chunk mesh
+03-07-2022 15:06:18 :    It took 33ms to generate this chunk mesh
+03-07-2022 15:06:18 :    It took 51ms to generate this chunk mesh
+03-07-2022 15:06:18 :    It took 34ms to generate this chunk mesh
+03-07-2022 15:06:18 :    It took 31ms to generate this chunk mesh
+03-07-2022 15:06:18 :    It took 31ms to generate this chunk mesh
+03-07-2022 15:06:18 :    It took 34ms to generate this chunk mesh
+03-07-2022 15:06:18 :    It took 35ms to generate this chunk mesh
+03-07-2022 15:06:18 :    It took 48ms to generate this chunk mesh
+03-07-2022 15:06:18 :    It took 19ms to generate this chunk mesh
+03-07-2022 15:06:18 :    It took 26ms to generate this chunk mesh
+03-07-2022 15:06:19 :    It took 28ms to generate this chunk mesh
+03-07-2022 15:06:19 :    It took 29ms to generate this chunk mesh
+03-07-2022 15:06:19 :    It took 29ms to generate this chunk mesh
+03-07-2022 15:06:19 :    It took 41ms to generate this chunk mesh
+03-07-2022 15:06:19 :    It took 33ms to generate this chunk mesh
+03-07-2022 15:06:19 :    It took 29ms to generate this chunk mesh
+03-07-2022 15:06:19 :    It took 41ms to generate this chunk mesh
+03-07-2022 15:06:19 :    It took 27ms to generate this chunk mesh
+03-07-2022 15:06:19 :    It took 20ms to generate this chunk mesh
+03-07-2022 15:06:19 :    It took 22ms to generate this chunk mesh
+03-07-2022 15:06:19 :    It took 22ms to generate this chunk mesh
+03-07-2022 15:06:19 :    It took 26ms to generate this chunk mesh
+03-07-2022 15:06:19 :    It took 27ms to generate this chunk mesh
+03-07-2022 15:06:19 :    It took 29ms to generate this chunk mesh
+03-07-2022 15:06:19 :    It took 22ms to generate this chunk mesh
+03-07-2022 15:06:19 :    It took 27ms to generate this chunk mesh
+03-07-2022 15:06:19 :    It took 25ms to generate this chunk mesh
+03-07-2022 15:06:19 :    It took 24ms to generate this chunk mesh
+03-07-2022 15:06:19 :    It took 29ms to generate this chunk mesh
+03-07-2022 15:06:19 :    It took 47ms to generate this chunk mesh
+03-07-2022 15:06:19 :    It took 46ms to generate this chunk mesh
+03-07-2022 15:06:19 :    It took 26ms to generate this chunk mesh
+03-07-2022 15:06:20 :    It took 39ms to generate this chunk mesh
+03-07-2022 15:06:20 :    It took 22ms to generate this chunk mesh
+03-07-2022 15:06:20 :    It took 20ms to generate this chunk mesh
+03-07-2022 15:06:20 :    It took 21ms to generate this chunk mesh
+03-07-2022 15:06:20 :    It took 23ms to generate this chunk mesh
+03-07-2022 15:06:20 :    It took 26ms to generate this chunk mesh
+03-07-2022 15:06:20 :    It took 35ms to generate this chunk mesh
+03-07-2022 15:06:20 :    It took 26ms to generate this chunk mesh
+03-07-2022 15:06:20 :    It took 28ms to generate this chunk mesh
+03-07-2022 15:06:20 :    It took 27ms to generate this chunk mesh
+03-07-2022 15:06:20 :    It took 19ms to generate this chunk mesh
+03-07-2022 15:06:20 :    It took 21ms to generate this chunk mesh
+03-07-2022 15:06:20 :    It took 24ms to generate this chunk mesh
+03-07-2022 15:06:20 :    It took 27ms to generate this chunk mesh
+03-07-2022 15:06:20 :    It took 19ms to generate this chunk mesh
+03-07-2022 15:06:20 :    It took 24ms to generate this chunk mesh
+03-07-2022 15:06:20 :    It took 29ms to generate this chunk mesh
+03-07-2022 15:06:20 :    It took 18ms to generate this chunk mesh
+03-07-2022 15:06:20 :    It took 14ms to generate this chunk mesh
+03-07-2022 15:06:20 :    It took 15ms to generate this chunk mesh
+03-07-2022 15:06:20 :    It took 37ms to generate this chunk mesh
+03-07-2022 15:06:20 :    It took 50ms to generate this chunk mesh
+03-07-2022 15:06:21 :    It took 64ms to generate this chunk mesh
+03-07-2022 15:06:21 :    It took 47ms to generate this chunk mesh
+03-07-2022 15:06:21 :    It took 53ms to generate this chunk mesh
+03-07-2022 15:06:21 :    It took 40ms to generate this chunk mesh
+03-07-2022 15:06:21 :    It took 32ms to generate this chunk mesh
+03-07-2022 15:06:21 :    It took 28ms to generate this chunk mesh
+03-07-2022 15:06:21 :    It took 20ms to generate this chunk mesh
+03-07-2022 15:06:21 :    It took 22ms to generate this chunk mesh
+03-07-2022 15:06:21 :    It took 26ms to generate this chunk mesh
+03-07-2022 15:06:21 :    It took 25ms to generate this chunk mesh
+03-07-2022 15:06:21 :    It took 24ms to generate this chunk mesh
+03-07-2022 15:06:21 :    It took 24ms to generate this chunk mesh
+03-07-2022 15:06:21 :    It took 18ms to generate this chunk mesh
+03-07-2022 15:06:21 :    It took 19ms to generate this chunk mesh
+03-07-2022 15:06:21 :    It took 29ms to generate this chunk mesh
+03-07-2022 15:06:21 :    It took 28ms to generate this chunk mesh
+03-07-2022 15:06:21 :    It took 34ms to generate this chunk mesh
+03-07-2022 15:06:21 :    It took 27ms to generate this chunk mesh
+03-07-2022 15:06:21 :    It took 35ms to generate this chunk mesh
+03-07-2022 15:06:22 :    It took 26ms to generate this chunk mesh
+03-07-2022 15:06:22 :    It took 36ms to generate this chunk mesh
+03-07-2022 15:06:22 :    It took 43ms to generate this chunk mesh
+03-07-2022 15:06:22 :    It took 61ms to generate this chunk mesh
+03-07-2022 15:06:22 :    It took 44ms to generate this chunk mesh
+03-07-2022 15:06:22 :    It took 74ms to generate this chunk mesh
+03-07-2022 15:06:22 :    It took 42ms to generate this chunk mesh
+03-07-2022 15:06:22 :    It took 27ms to generate this chunk mesh
+03-07-2022 15:06:22 :    It took 32ms to generate this chunk mesh
+03-07-2022 15:06:22 :    It took 32ms to generate this chunk mesh
+03-07-2022 15:06:22 :    It took 48ms to generate this chunk mesh
+03-07-2022 15:06:22 :    It took 21ms to generate this chunk mesh
+03-07-2022 15:06:22 :    It took 22ms to generate this chunk mesh
+03-07-2022 15:06:22 :    It took 23ms to generate this chunk mesh
+03-07-2022 15:06:22 :    It took 16ms to generate this chunk mesh
+03-07-2022 15:06:22 :    It took 13ms to generate this chunk mesh
+03-07-2022 15:06:22 :    It took 16ms to generate this chunk mesh
+03-07-2022 15:06:22 :    It took 16ms to generate this chunk mesh
+03-07-2022 15:06:22 :    It took 20ms to generate this chunk mesh
+03-07-2022 15:06:22 :    It took 21ms to generate this chunk mesh
+03-07-2022 15:06:22 :    It took 24ms to generate this chunk mesh
+03-07-2022 15:06:23 :    It took 24ms to generate this chunk mesh
+03-07-2022 15:06:23 :    It took 30ms to generate this chunk mesh
+03-07-2022 15:06:23 :    It took 30ms to generate this chunk mesh
+03-07-2022 15:06:23 :    It took 25ms to generate this chunk mesh
+03-07-2022 15:06:23 :    It took 32ms to generate this chunk mesh
+03-07-2022 15:06:23 :    It took 36ms to generate this chunk mesh
+03-07-2022 15:06:23 :    It took 29ms to generate this chunk mesh
+03-07-2022 15:06:23 :    It took 37ms to generate this chunk mesh
+03-07-2022 15:06:23 :    It took 31ms to generate this chunk mesh
+03-07-2022 15:06:23 :    Exited game loop, closing display and exiting game...
+03-07-2022 15:06:23 :    Detached vertex shader from shader program...
+03-07-2022 15:06:23 :    Detached fragment shader from shader program...
+03-07-2022 15:06:23 :    Deleted vertex shader...
+03-07-2022 15:06:23 :    Deleted fragment shader...
+03-07-2022 15:06:23 :    Deleted shader program
+03-07-2022 15:06:23 :    Detached vertex shader from shader program...
+03-07-2022 15:06:23 :    Detached fragment shader from shader program...
+03-07-2022 15:06:23 :    Deleted vertex shader...
+03-07-2022 15:06:23 :    Deleted fragment shader...
+03-07-2022 15:06:23 :    Deleted shader program
+03-07-2022 15:06:23 :    Average FPS this game session: 260
+03-07-2022 15:06:23 :    Average delta time (time taken to render) this game session: 0.0073238197
+03-07-2022 15:06:23 :    LOGGING FINISHED
+03-07-2022 15:06:23 :    It took 36ms to generate this chunk mesh
+03-07-2022 15:06:23 :    It took 36ms to generate this chunk mesh
