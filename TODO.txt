@@ -1,7 +1,6 @@
 TODO:
 
   - add voxel removal/addition
-  - perlin noise height generation
   - biomes
   - water
   - clouds (maybe)
