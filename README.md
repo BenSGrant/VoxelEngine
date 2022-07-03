@@ -4,7 +4,7 @@
 
 GaryTheBlobfish::VoxelEngine
 
-An Open Source 3D Voxel Engine written in LWJGL 2.9.1 and Java 8
+An Open Source 3D Voxel Engine written in LWJGL 2.9.1 and Java 8 as well as [FastNoiseLite](https://github.com/Auburn/FastNoiseLite)
 
 	- See controls.txt for controls
 	- See changelog.txt to see changes
