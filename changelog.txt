@@ -107,8 +107,9 @@ VoxelEngine CHANGELOG
 		v0.9 - (3/7/22):
 			
 			- Simplex Noise terrain generation using FastNoiseLite (see readme.md)
-			- limited world size to 256*256
-			- limited FPS cap to 256
+			- Limited world size to 256*256
+			- Limited FPS cap to 256
 			- Chunks now 8 blocks x and z
 			- Looking around no longer affects y movement of player
+			- Removed Transparency - it looked bad
 
