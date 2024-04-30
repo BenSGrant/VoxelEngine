@@ -1,5 +1,0 @@
-- get your 16x16 textures for all sides
-- create a new png with 48x48 size
-- put 16x16 textures in correct spaces (see textures/rf/grassTex.PNG for 
-  reference)
-- scale up to 512x512
